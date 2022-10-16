@@ -1,0 +1,28 @@
+{
+  "name": "webpack-unpacker",
+  "private": false,
+  "version": "1.0.0",
+  "description": "Webpack bundle decompiler",
+  "main": "src/index.js",
+  "bin": {
+    "debundle": "src/index.js"
+  },
+  "repository": "https://github/dinosoftorg/webpack-unpacker",
+  "author": "dinosoftorg",
+  "license": "MIT",
+  "engines": {
+    "node" : ">=12.0.0"
+  },
+  "dependencies": {
+    "acorn": "^7.1.0",
+    "chalk": "^3.0.0",
+    "cli-highlight": "^2.1.4",
+    "commander": "^4.1.1",
+    "escodegen": "^1.13.0",
+    "escope": "^3.6.0",
+    "estraverse": "^4.3.0",
+    "mkdirp": "^1.0.3",
+    "recast": "^0.18.5",
+    "sync-request": "^6.1.0"
+  }
+}
