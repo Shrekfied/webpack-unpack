@@ -6,6 +6,6 @@ $ git clone https://github.com/dinosoftorg/webpack-unpacker.git
 $ npm install
 ```
 ## Running
-``sh
+```sh
 $ node src/index.js createreactapp.js
 ```
